@@ -2,7 +2,6 @@
 import { siteConfig } from "@/app/siteConfig"
 import { cx, focusRing } from "@/lib/utils"
 import {
-  RiCalculatorLine,
   RiExchangeDollarLine,
   RiFileChartLine,
   RiLineChartLine,
@@ -28,11 +27,6 @@ const navigation = [
     name: "Cash Flow",
     href: siteConfig.baseLinks.cashFlow,
     icon: RiLineChartLine,
-  },
-  {
-    name: "Investors",
-    href: siteConfig.baseLinks.investors,
-    icon: RiCalculatorLine,
   },
 ] as const
 

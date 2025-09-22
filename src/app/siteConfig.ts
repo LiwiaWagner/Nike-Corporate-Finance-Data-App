@@ -7,7 +7,6 @@ export const siteConfig = {
     incomeStatement: "/income-statement/executive-summary",
     balanceSheet: "/balance-sheet/executive-summary",
     cashFlow: "/cash-flow",
-    investors: "/investors",
   },
   externalLink: {
     blocks: "https://blocks.tremor.so/templates#dashboard",
