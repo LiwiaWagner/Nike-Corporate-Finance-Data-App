@@ -133,7 +133,7 @@ const SankeySegment: React.FC<SankeyProps> = ({ data }) => {
         // (d) => (isDarkMode ? d.darkColor : d.color), // If I change color depending on the theme
         // (d) => (isDarkMode ? d.darkColor : d.color) as string, // If I change color depending on the theme
       )
-      .style("stroke-opacity", isDarkMode ? 0.2 : 0.2)
+      .style("stroke-opacity", isDarkMode ? 0.4 : 0.4)
       .on("mouseover", (event: MouseEvent, d: Link) => {
         tooltip
           .html(
